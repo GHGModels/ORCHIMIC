@@ -1,5 +1,5 @@
-The distribution of model should abide the rules of distribution of free software.
-Before you use the model for any purpose, you need contact the corresponidng author for permission by email ye.huang@lsce.ipsl.fr or huangysmile@foxmail.com
+The distribution of software should abide the rules of distribution of free software.
+Before you use the model for any purposes, you need contact the corresponidng author for permission by email ye.huang@lsce.ipsl.fr or huangysmile@foxmail.com
 
 The ORCHIMIC model is programmed in Python language and the run of model need Python software with basic packages (numpy, os and sys) preinstalled.
 
