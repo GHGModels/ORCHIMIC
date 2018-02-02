@@ -1,0 +1,10 @@
+The distribution of model should abide the rules of distribution of free software.
+Before you use the model for any purpose, you need contact the corresponidng author for permission by email ye.huang@lsce.ipsl.fr or huangysmile@foxmail.com
+
+The ORCHIMIC model is programmed in Python language and the run of model need Python software with basic packages (numpy, os and sys) preinstalled.
+
+ORCHIMIC.py includes the main code of ORCHIMIC model.
+
+job.py is the script used to reproduce results (section 6.4 in the paper) for the idealized simulations with increased temperature (exp='5T') or FOM input (exp='2I') or both (exp='5K_2I'). But first you have to run the model to equilibrium by setting exp='spinup', and then use the restarted run by setting OK_restart='y' and providing the restarted path (the path with output of equilibrium pools).
+
+To successful run the model in your own computer, you need to modified some path variables in the job.py. After that, you can simply run the model by command "run job" in python environment.
